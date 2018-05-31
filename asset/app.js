@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-      res.send('Hello World! Greeting from a docker image running nodejs(version 0.2)');
+      res.send('Hello World! Greeting from a docker image running nodejs(version 0.3)');
 });
 
 app.listen(3000, function () {
